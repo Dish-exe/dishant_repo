@@ -1,0 +1,19 @@
+<div class="team-content">
+  <h2>Team 4</h2>
+  <p>Welcome to Team 4! We are dedicated to achieving excellence in our projects.</p>
+  <ul>
+    <li><strong>Team Leader:</strong> Alice Johnson</li>
+    <li><strong>Members:</strong> Bob Smith, Carol White, David Brown</li>
+    <li><strong>Focus Area:</strong> Innovative Solutions</li>
+  </ul>
+  <p>Our mission is to deliver high-quality results while fostering a collaborative environment.</p>
+  <button (click)="showMoreInfo()">More Info</button>
+  <div *ngIf="moreInfoVisible" class="more-info">
+    <p>Team 4 has successfully completed numerous projects, including:</p>
+    <ul>
+      <li>Project A - A groundbreaking initiative in tech.</li>
+      <li>Project B - A community-focused outreach program.</li>
+      <li>Project C - An innovative product launch.</li>
+    </ul>
+  </div>
+</div>

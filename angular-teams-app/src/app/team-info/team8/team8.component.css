@@ -1,0 +1,21 @@
+.background {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  padding: 20px; /* Padding around the content */
+  border-radius: 8px; /* Rounded corners */
+  transition: transform 0.3s; /* Animation for hover effect */
+}
+
+.background:hover {
+  transform: scale(1.05); /* Scale up on hover */
+}
+
+h2 {
+  font-size: 24px; /* Font size for the heading */
+  text-align: center; /* Center the heading */
+}
+
+p {
+  font-size: 16px; /* Font size for the paragraph */
+  text-align: justify; /* Justify the text */
+}

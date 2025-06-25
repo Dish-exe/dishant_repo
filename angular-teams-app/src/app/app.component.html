@@ -1,0 +1,29 @@
+<button (click)="showTeams = !showTeams">Teams</button>
+
+<div *ngIf="showTeams">
+  <button (click)="selectTeam(1)">Team 1</button>
+  <button (click)="selectTeam(2)">Team 2</button>
+  <button (click)="selectTeam(3)">Team 3</button>
+  <button (click)="selectTeam(4)">Team 4</button>
+  <button (click)="selectTeam(5)">Team 5</button>
+  <button (click)="selectTeam(6)">Team 6</button>
+  <button (click)="selectTeam(7)">Team 7</button>
+  <button (click)="selectTeam(8)">Team 8</button>
+  <button (click)="selectTeam(9)">Team 9</button>
+  <button (click)="selectTeam(10)">Team 10</button>
+</div>
+
+<div *ngIf="selectedTeam">
+  <ng-container [ngSwitch]="selectedTeam">
+    <app-team1 *ngSwitchCase="1"></app-team1>
+    <app-team2 *ngSwitchCase="2"></app-team2>
+    <app-team3 *ngSwitchCase="3"></app-team3>
+    <app-team4 *ngSwitchCase="4"></app-team4>
+    <app-team5 *ngSwitchCase="5"></app-team5>
+    <app-team6 *ngSwitchCase="6"></app-team6>
+    <app-team7 *ngSwitchCase="7"></app-team7>
+    <app-team8 *ngSwitchCase="8"></app-team8>
+    <app-team9 *ngSwitchCase="9"></app-team9>
+    <app-team10 *ngSwitchCase="10"></app-team10>
+  </ng-container>
+</div>

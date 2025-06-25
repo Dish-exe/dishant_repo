@@ -1,0 +1,11 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-team9',
+  templateUrl: './team9.component.html',
+  styleUrls: ['./team9.component.css']
+})
+export class Team9Component {
+  title = 'Team 9';
+  description = 'Welcome to Team 9! We are dedicated to achieving excellence in our projects and fostering a collaborative environment.';
+}
